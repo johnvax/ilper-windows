@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DosLinkDev.cpp" />
+    <ClCompile Include="EditCC.cpp" />
+    <ClCompile Include="IldevBase.cpp" />
+    <ClCompile Include="Ildisp.cpp" />
+    <ClCompile Include="Ildrive.cpp" />
+    <ClCompile Include="Ilper.cpp" />
+    <ClCompile Include="ILSetup.cpp" />
+    <ClCompile Include="IntLoop.cpp" />
+    <ClCompile Include="LoopCfg.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Mnemo.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Pilbox.cpp" />
+    <ClCompile Include="TcpIp.cpp" />
+    <ClCompile Include="TextSvr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DosLinkDev.h" />
+    <ClInclude Include="EditCC.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="IL.h" />
+    <ClInclude Include="IldevBase.h" />
+    <ClInclude Include="Ildisp.h" />
+    <ClInclude Include="Ildrive.h" />
+    <ClInclude Include="Ilper.h" />
+    <ClInclude Include="ILSetup.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="IntLoop.h" />
+    <ClInclude Include="LoopCfg.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Mnemo.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Pilbox.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TcpIp.h" />
+    <ClInclude Include="TextSvr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ilper.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Ilper.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Ilper.rc2" />
+  </ItemGroup>
+</Project>
